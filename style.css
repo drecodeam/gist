@@ -1,0 +1,301 @@
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1,h2,h3,h4,h5,h6{
+font-family: 'Comfortaa', "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+thead th,
+tbody th{
+font-family: 'Comfortaa', "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: 'Comfortaa', "Trebuchet Ms", arial, verdana, sans-serif;
+}
+
+.sf-menu{
+font-family: 'Comfortaa', "Trebuchet Ms", arial, verdana, sans-serif;
+}
+/*---------------------------------
+	GRID
+-----------------------------------*/
+ /*
+ & Columns : 12 
+ & Gutter %: 20% 
+ & MinWidth: 960px
+ & MaxWidth: 1080px
+ */
+.col_1  { width: 6.6666666666667%; }
+.col_2  { width: 15%; }
+.col_3  { width: 23.333333333333%; }
+.col_4  { width: 31.666666666667%; }
+.col_5  { width: 40%; }
+.col_6  { width: 48.333333333333%; }
+.col_7  { width: 56.666666666667%; }
+.col_8  { width: 65%; }
+.col_9  { width: 73.333333333333%; }
+.col_10 { width: 81.666666666667%; }
+.col_11 { width: 90%; }
+.col_12 { width: 98.333333333333%; }
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_8,
+.col_9,
+.col_10,
+.col_11,
+.col_12 {
+margin-left: 0.83333333333333%;
+margin-right: 0.83333333333333%;
+margin-top:8px;
+margin-bottom:8px;
+float: left;
+display: block;
+}
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+
+@font-face {
+      font-family: "social";
+      src: url("Socialico.otf");
+    }
+    
+    
+    body{
+margin:0;
+padding:0;
+color:#000;
+background:#efefef url(css/img/grid.png) repeat center top;
+font:normal 0.9em/150% 'Arimo', "Trebuchet MS", arial, verdana, sans-serif;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+background:url('bg4.png');
+}
+
+
+
+#header{
+    width:100%;
+    display:block;
+    position:relative;
+}
+
+#header img{
+    width:100%;
+    position:relative;
+    display:block;
+}
+
+
+#head_title{
+      position:absolute;
+      display:block;
+      bottom:20%;
+      font-size:100px;
+      font-weight:100;
+      left:5%;
+      float:left;
+      color:#333333;
+}
+
+#head_title h4{
+      display:block;
+      position:relative;
+      margin:0px;
+      padding:0px;
+      font-size:30px;
+      float:left;
+      color:#008000;
+      opacity:0.6;
+      line-height:1em;
+      }
+#head_title p{
+      display:block;
+      position:relative;
+      float:left;
+      margin:0px;
+      padding:0px;
+}
+
+/*content*/
+
+#content{
+    display:block;
+    position:relative;
+    float:left;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background:rgba(155,13,41,1);
+    background:url('bg7.png');
+    padding:30px;
+    margin-left:10%;
+    margin-top:-60px;
+    font-size:25px;
+    min-height:700px;
+    color:#FF8000;
+    margin-bottom:0px;
+    line-height:normal;
+      font-weight:900;
+      text-align:center;
+
+}
+
+#content li{
+    background:white;
+    border-radius:10px;
+    font-family:sans-serif;
+    font-size:16px;
+    text-align:left;    
+    font-weight:100;
+    height:auto;
+    max-height:400px;
+    overflow:hidden;
+    cursor:pointer;
+    border-bottom:10px rgba(255,255,255,0.4) inset;
+    
+}
+
+
+
+.filename,
+.gist,
+.desc{
+    padding:10px;
+    display:block;
+    position:relative;
+}
+
+.gist{
+    background:#FFDD0B;
+    color:black;
+    margin-top:10px;
+}
+
+.desc{
+    white-space:pre-wrap;
+    
+}
+.filename{
+    border-top:1px dashed #B3B3B3;
+    border-bottom:1px dashed #B3B3B3;
+}
+
+
+
+#footer{
+    display:block;
+    position:relative;
+    width:100%;
+    height:auto;
+    height:400px;
+    clear:both;
+    background:url('bg6.png');
+    padding-top:40px;
+    margin-top:0px;
+    color:white;
+    
+}
+
+
+
+#info{
+    margin-top:0px;
+    height:100%;
+    font-size:16px;
+    line-height:1.4em;
+    font-family:sans-serif;
+    font-weight:100;
+    text-align:center;
+    color:#7F7F7F;
+    padding:10px;
+    border-right:1px solid rgba(128,128,128,0.3);
+    
+}
+
+#info img{
+      border-bottom:1px solid white;
+      padding-bottom:10px;
+}
+
+#social{
+      font-family:social;
+      font-size:60px;
+      margin-top:40px;
+}
+
+#credits{
+          border-right:1px solid rgba(128,128,128,0.3);
+
+}
+
+#badges{
+      padding-left:0px;
+       border-right:1px solid rgba(128,128,128,0.3);
+      text-align:Center;
+      font-size:100px;
+      line-height:0.6em;
+}
+
+/* desert scheme ported from vim to google prettify */
+/* Pretty printing styles. Used with prettify.js. */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+.pln { color: #333333 }  /* plain text */
+
+@media screen {
+  .str { color: #080 }  /* string content */
+  .kwd { color: #FF0080 }  /* a keyword */
+  .com { color: #CCCCCC }  /* a comment */
+  .typ { color: #606 }  /* a type name */
+  .lit { color: #008040 }  /* a literal value */
+  /* punctuation, lisp open bracket, lisp close bracket */
+  .pun, .opn, .clo { color: #660 }
+  .tag { color: #008 }  /* a markup tag name */
+  .atn { color: #606 }  /* a markup attribute name */
+  .atv { color: #080 }  /* a markup attribute value */
+  .dec, .var { color: #606 }  /* a declaration; a variable name */
+  .fun { color: red }  /* a function name */
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+  .str { color: #060 }
+  .kwd { color: #006; font-weight: bold }
+  .com { color: #600; font-style: italic }
+  .typ { color: #404; font-weight: bold }
+  .lit { color: #044 }
+  .pun, .opn, .clo { color: #440 }
+  .tag { color: #006; font-weight: bold }
+  .atn { color: #404 }
+  .atv { color: #060 }
+}
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint { padding: 2px; border: 1px solid #888 }
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 { background: #eee }
